@@ -1,0 +1,33 @@
+.All-tech-icons{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
+
+}
+.All-tech-icons h1{
+    padding: 30px 0;
+}
+.All-tech-icons h3{
+    padding: 50px 0;
+}
+.icons-frow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.html-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid blue; */
+    padding: 20px;
+}
+.html-icon img{
+
+    width: 50px;
+}
