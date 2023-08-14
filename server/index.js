@@ -18,5 +18,8 @@ dotenv.config();
   app.get('/api/cssquiz/', (req, res) => {
     res.json(CssData);
   });
+  app.get('/', (req, res) => {
+    res.send("how arey ou");
+  });
 
 app.listen(process.env.PORT || 5000)
