@@ -9,7 +9,7 @@ const CssData = require('./quizedata/cssdata');
 
 const dotenv = require("dotenv");
 dotenv.config();
-
+const port = process.env.PORT || 5000
 
 
   app.get('/api/htmlquiz/', (req, res) => {
@@ -22,4 +22,4 @@ dotenv.config();
     res.send("how arey ou");
   });
 
-app.listen(process.env.PORT || 5000)
+app.listen(port)
