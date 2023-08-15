@@ -9,7 +9,7 @@ function Header() {
           <h2>grow! with inter</h2>
         
           <p>
-            thi sis my web  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet tempora at illo, esse perspiciatis consequuntur blanditiis id laudantium quisquam ducimus fuga aliquam, iste nam quod qui consectetur accusantium! Eaque id possimus impedit quos culpa iure veritatis perspiciatis quia, nobis voluptatum. Laborum dolorem adipisci eligendi, obcaecati voluptatem sed sit itaque?
+            2nd is thi sis my wno eb  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet tempora at illo, esse perspiciatis consequuntur blanditiis id laudantium quisquam ducimus fuga aliquam, iste nam quod qui consectetur accusantium! Eaque id possimus impedit quos culpa iure veritatis perspiciatis quia, nobis voluptatum. Laborum dolorem adipisci eligendi, obcaecati voluptatem sed sit itaque?
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
             saepe perspiciatis fuga error reprehenderit cumque soluta
             provclassNameent placeat ratione eius!
