@@ -19,7 +19,7 @@ const port = process.env.PORT || 5000
     res.json(CssData);
   });
   app.get('/', (req, res) => {
-    res.send("how arey ou");
+    res.send("how i am furjan arey ou");
   });
 
 app.listen(port)
