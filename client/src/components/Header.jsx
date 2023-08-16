@@ -1,36 +1,40 @@
-import React from 'react'
-import "../styles/Header.css";
+import React from "react";
+import "../styles/About.css";
 function Header() {
   return (
     <>
-         <div className= "intro">
-        <div className="left">
+      <div className="About-page-intro">
+        <div className="About-page-left">
           <h2>learn with inter,</h2>
           <h2>grow! with inter</h2>
-        
-          <p>
-            2nd is thi sis my wno eb  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae amet tempora at illo, esse perspiciatis consequuntur blanditiis id laudantium quisquam ducimus fuga aliquam, iste nam quod qui consectetur accusantium! Eaque id possimus impedit quos culpa iure veritatis perspiciatis quia, nobis voluptatum. Laborum dolorem adipisci eligendi, obcaecati voluptatem sed sit itaque?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-            saepe perspiciatis fuga error reprehenderit cumque soluta
-            provclassNameent placeat ratione eius!
-          </p>
-        <a href="/"> <button className="intro-btn all-btn">know more</button></a> 
-        </div>
 
-        <div className="right">
-          <div className="img-stack">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Consequatur neque est soluta dignissimos eligendi. Quas porro in et
+            eligendi blanditiis recusandae magni modi molestias sint unde.
+            Necessitatibus nam illo perferendis veniam tenetur dicta quaerat
+            error animi non similique atque modi molestiae omnis quos adipisci
+            tempore totam alias nostrum, nobis hic?
+          </p>
+          <a href="/Project">
+            {" "}
+            <button className="all-btn">Know more</button>
+          </a>
+        </div>
+        <div className="About-page-right">
+          <div className="About-page-img-stack">
             <img
               src="https://th.bing.com/th/id/OIP.TZieuHjSkekeGlRORqtd9AHaHa?pid=ImgDet&w=801&h=801&rs=1"
               alt=""
               width="450px"
               height="450px"
-              className="img"
+              className="About-page-img"
             />
           </div>
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default Header
+export default Header;

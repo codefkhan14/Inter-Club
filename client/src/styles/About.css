@@ -1,112 +1,121 @@
 .About-page-intro {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    height: 100%;
-    margin-top: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap:wrap-reverse;
+  height: 100%;
+  margin-top: 70px;
+}
+.About-page-intro .About-page-left {
+  height: 100%;
+  padding: 1rem;
+  max-width: 550px;
+}
+
+.About-page-intro .About-page-left h2 {
+  font-size: 35px;
+  text-align: start;
+}
+
+.About-page-intro .About-page-left p {
+  line-height: 1.5;
+  margin-top: 15px;
+  letter-spacing: 0.2px;
+  color: rgb(99, 98, 98);
+}
+
+.About-page-left a button {
+  padding: 12px 20px;
+  margin-top: 20px;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+}
+
+.About-page-intro .About-page-right {
+  max-width: 700px;
+}
+@media screen and (max-width: 1200px) {
+  .About-page-right .About-page-img-stack .About-page-img {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .About-page-intro {
+    margin-top: 50px;
   }
   .About-page-intro .About-page-left {
-    height: 100%;
-    padding: 1rem;
-    max-width: 550px;
+    max-width: 450px;
+
   }
-  
+  .About-page-right .About-page-img-stack .About-page-img {
+    width: 350px;
+    height: 350px;
+  }
+
   .About-page-intro .About-page-left h2 {
-    font-size: 35px;
-    text-align: start;
+    font-size: 28px;
   }
-  
+
   .About-page-intro .About-page-left p {
-    line-height: 1.5;
-    margin-top: 25px;
-    letter-spacing: 0.2px;
-    color: rgb(99, 98, 98);
+    font-size: 15px;
   }
-  
+
   .About-page-left a button {
-    padding: 12px 20px;
-    margin: 20px 0;
+    padding: 10px 23px;
+    font-size: 12px;
+  }
+  .About-page-right .About-page-img-stack .About-page-img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .About-page-intro {
+   justify-content: center;
+  }
+
+  .About-page-intro .About-page-left {
+    max-width: 400px;
+    text-align: center;
+
+  }
+  .About-page-right .About-page-img-stack .About-page-img {
+    display: none;
+  }
+  .About-page-intro .About-page-left h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .About-page-intro .About-page-left p {
     font-size: 13px;
-    letter-spacing: 0.2px;
-    background-color: rgb(23, 183, 132);
-    color: white;
-    border-radius: 20px;
-  
-   
+    margin-top: 8px;
   }
-  
-  
-  .About-page-intro .About-page-right {
-    max-width: 700px;
+  .About-page-left a button {
+    padding: 10px 20px;
+    font-size: 11px;
   }
-  @media screen and (max-width: 1200px) {
-    .About-page-right .About-page-img-stack .About-page-img {
-      width: 350px;
-      height: 350px;
-    }
+
+}
+@media screen and (max-width: 660px) {
+  .About-page-intro {
+  margin-top: 20px;
   }
-  
-  @media screen and (max-width: 900px) {
-    .About-page-intro .About-page-left {
-      max-width: 450px;
-    }
-  
-    .About-page-intro .About-page-left h2 {
-      font-size: 28px;
-    }
-  
-    .About-page-intro .About-page-left p {
-      font-size: 15px;
-    }
-  
-    .About-page-left a button {
-      padding: 10px 23px;
-      font-size: 12px;
-    }
-    .About-page-right .About-page-img-stack .About-page-img {
-      width: 250px;
-      height: 250px;
-    }
+  .About-page-intro .About-page-left h2 {
+    font-size: 14px;
   }
-  
-  @media screen and (max-width: 660px) {
-    .About-page-intro .About-page-left {
-      max-width: 450px;
-    }
-  
-    .About-page-intro .About-page-left h2 {
-      font-size: 25px;
-    }
-  
-    .About-page-intro .About-page-left p {
-      font-size: 13px;
-    }
-  
-    .About-page-left a button {
-      padding: 10px 20px;
-      font-size: 11px;
-    }
+
+  .About-page-intro .About-page-left p {
+    font-size: 8px;
   }
-  @media screen and (max-width: 740px) {
-    .About-page-right .About-page-img-stack .About-page-img {
-      margin-top: 15px;
-      display: none;
-    }
-    .About-page-intro {
-      justify-content: center;
-  
-      align-items: center;
-    }
-    .About-page-left a button {
-      align-items: flex-start;
-      display: flex;
-    }
-  
-    .About-page-intro .About-page-left p {
-  
-      text-align: start;
-    }
+
+  .About-page-left a button {
+    padding: 7px 12px;
+    font-size: 7px;
   }
-  
+}

@@ -1,28 +1,30 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   transition: 0.3s;
-   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-   /* font-family:Arial, Helvetica, sans-serif; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-a{
+a {
   text-decoration: none;
   cursor: pointer;
 }
-h1,h2,h3,h4,h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-transform: uppercase;
-  font-weight: bold;
-  
+  font-weight: 600;
 }
-button{
+button {
   text-transform: uppercase;
   cursor: pointer;
   font-weight: bold;
-  border: none;   
-outline: none;
-border-radius: 20px;
-color: white;
- background-color: rgb(23, 183, 132);;
-
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(23, 183, 132);
 }
