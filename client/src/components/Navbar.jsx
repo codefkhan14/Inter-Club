@@ -40,9 +40,9 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="navbar-item">
-          <a href="#about" className="navbar-link">
+          <Link to="/About" className="navbar-link">
             About
-          </a>
+          </Link>
         </li>
 
         <li className="navbar-item dropdown">
@@ -102,9 +102,9 @@ const Navbar = () => {
         </li>
 
         <li className="navbar-item">
-          <a href="/Contact" className="navbar-link">
+          <Link to="/Contact" className="navbar-link">
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

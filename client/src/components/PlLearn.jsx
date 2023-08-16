@@ -47,7 +47,7 @@ function PlLearn() {
       </div>
     </div>
 
-    <div className="icons-frow">
+    {/* <div className="icons-frow">
         <div className="html-icon">
           <a href="">
             <img src={vue} alt="error" />
@@ -78,7 +78,7 @@ function PlLearn() {
           </a>
           <h6>swift</h6>
         </div>
-      </div>
+      </div> */}
 
   </div>
   )

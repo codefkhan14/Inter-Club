@@ -50,12 +50,12 @@ function TechnologieLearn() {
 
 
       <div className="icons-frow">
-        <div className="html-icon">
+        {/* <div className="html-icon">
           <a href="">
             <img src={vue} alt="error" />
           </a>
           <h6>Vue</h6>
-        </div>
+        </div> */}
         <div className="html-icon">
           <a href="">
             <img src={nodejs} alt="error" />
@@ -68,7 +68,7 @@ function TechnologieLearn() {
           </a>
           <h6>express</h6>
         </div>
-        <div className="html-icon">
+        {/* <div className="html-icon">
           <a href="">
             <img src={bootstrap} alt="error" />
           </a>
@@ -79,11 +79,11 @@ function TechnologieLearn() {
             <img src={tailwind} alt="error" />
           </a>
           <h6>tailwind</h6>
-        </div>
+        </div> */}
       </div>
 
 
-
+{/* 
       <div className="icons-frow">
         <div className="html-icon">
           <a href="">
@@ -115,11 +115,11 @@ function TechnologieLearn() {
           </a>
           <h6>Html</h6>
         </div>
-      </div>
+      </div> */}
 
 
 
-      <h1>Data bases</h1>
+      <h3>Data bases</h3>
       <div className="icons-frow">
         <div className="html-icon">
           <a href="">
@@ -143,7 +143,7 @@ function TechnologieLearn() {
         
 
       </div>
-      <h1>Core Subjects</h1>
+      {/* <h3>Core Subjects</h3>
       <div className="icons-frow">
         <div className="html-icon">
           <a href="">
@@ -172,7 +172,7 @@ function TechnologieLearn() {
 
         
 
-      </div>
+      </div> */}
     </div>
   );
 }

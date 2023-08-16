@@ -18,22 +18,19 @@ function Quize() {
         <h1>Select topic</h1>
         <div className="icons-frow">
           <div className="html-icon">
-            <Link
-             to="/Learning/Quize/html"
-             
-            >
+            <Link to="/Learning/Quize/html">
               <img src={Html} alt="error" />
             </Link>
             <h6>Html</h6>
           </div>
           <div className="html-icon">
-            <Link to="/Learning/Quize/css" >
+            <Link to="/Learning/Quize/css">
               <img src={Css} alt="error" />
             </Link>
             <h6>css</h6>
           </div>
           <div className="html-icon">
-          <Link to="/Learning/Quize/js" >
+            <Link to="/Learning/Quize/js">
               <img src={Js} alt="error" />
             </Link>
             <h6>Js</h6>
@@ -53,12 +50,12 @@ function Quize() {
         </div>
 
         <div className="icons-frow">
-          <div className="html-icon">
+          {/* <div className="html-icon">
             <a href="">
               <img src={vue} alt="error" />
             </a>
             <h6>Vue</h6>
-          </div>
+          </div> */}
           <div className="html-icon">
             <a href="">
               <img src={nodejs} alt="error" />
@@ -71,7 +68,7 @@ function Quize() {
             </a>
             <h6>express</h6>
           </div>
-          <div className="html-icon">
+          {/* <div className="html-icon">
             <a href="">
               <img src={bootstrap} alt="error" />
             </a>
@@ -82,9 +79,9 @@ function Quize() {
               <img src={tailwind} alt="error" />
             </a>
             <h6>tailwind</h6>
-          </div>
+          </div> */}
         </div>
-
+        {/* 
         <div className="icons-frow">
           <div className="html-icon">
             <a href="">
@@ -116,7 +113,7 @@ function Quize() {
             </a>
             <h6>Html</h6>
           </div>
-        </div>
+        </div> */}
 
         <h3>Data bases</h3>
         <div className="icons-frow">
@@ -139,7 +136,7 @@ function Quize() {
             <h6>my sql</h6>
           </div>
         </div>
-        <h3>Core Subjects</h3>
+        {/* <h3>Core Subjects</h3>
         <div className="icons-frow">
           <div className="html-icon">
             <a href="">
@@ -165,7 +162,7 @@ function Quize() {
             </a>
             <h6>ml</h6>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
