@@ -10,6 +10,7 @@ import QuizeContest from './routes/QuizeContest';
 import CodingContest from './routes/CodingContest';
 import QuizeHtml from './routes/QuizeHtml';
 import QuizeCss from './routes/QuizeCss';
+import Contact from './routes/Contact';
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
         <Route path="/Learning/Quize/css" element={<QuizeCss/>} /> 
         <Route path="/Learning/Interview-prepration" element={<InterviewPrepration/>} /> 
         <Route path="/Learning/Programming-Language" element={<Pl/>} /> 
+        <Route path="/Contact" element={<Contact/>} /> 
 
 
         <Route path="/Contest/Coding-contest" element={<CodingContest/>} /> 

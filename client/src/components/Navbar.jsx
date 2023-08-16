@@ -102,7 +102,7 @@ const Navbar = () => {
         </li>
 
         <li className="navbar-item">
-          <a href="#contact" className="navbar-link">
+          <a href="/Contact" className="navbar-link">
             Contact
           </a>
         </li>
