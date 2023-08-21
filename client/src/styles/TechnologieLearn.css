@@ -1,43 +1,89 @@
-.All-tech-icons {
-  /* border: 2px solid red; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 60px;
-}
-.All-tech-icons h1 {
-  padding: 30px 0;
-}
-.All-tech-icons h6 {
-  padding: 5px 0;
-}
-.icons-frow {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-}
-.html-icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-}
-.html-icon img {
-  width: 50px;
+.service {
+  padding-top: 150px;
+  text-align: center;
 }
 
-@media screen and (max-width: 700px) {
-  .All-tech-icons h1 {
-    padding: 20px 0;
-    font-size: 16px;
+.service h2 {
+  font-size: 33px;
+  margin:10px 0 ;
+}
+.service button {
+  padding: 6px 27px;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.service-item {
+  display: flex;
+  margin: 60px 0;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.service-item1 {
+  margin: 20px 20px;
+  width: 200px;
+  border-radius: 20px;
+  height: 250px;
+  padding: 30px 0;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 15px 30px 0px rgb(224, 224, 224);
+}
+.service-item1 img{
+  width: 50px;
+}
+.service-detail {
+  margin-top: 15px;
+}
+.service-detail h4 {
+  font-weight: bold;
+}
+
+.service-detail p {
+  margin-top: 5px;
+  color: rgb(95, 95, 95);
+  font-size: 14px;
+}
+
+
+@media screen and (max-width:760px) {
+  .service {
+    padding-top: 80px;
   }
-  .html-icon {
-    padding: 10px;
+  
+  .service-item {
+    padding: 0px;
   }
-  .html-icon img {
-    width: 30px;
+}
+@media screen and (max-width:720px) {
+  .service-item1 {
+    margin: 10px;
+    width: 180px;
+    height: 230px;
+  }
+}
+@media screen and (max-width:600px) {
+  .service-item1 {
+    margin: 15px;
+    width: 200px;
+  }
+}
+@media screen and (max-width:460px) {
+  .service h2 {
+    font-size: 25px;
+    margin:0;
+  }
+  .service-item1 {
+    margin: 8px;
+    width: 180px;
+  }
+}
+@media screen and (max-width:392px) {
+  .service-item1 {
+    width: 230px;
+    margin: 20px 0;
+    height: 230px;
   }
 }

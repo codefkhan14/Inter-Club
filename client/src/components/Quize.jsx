@@ -14,155 +14,246 @@ import { Link } from "react-router-dom";
 function Quize() {
   return (
     <>
-      <div className="All-tech-icons">
-        <h1>Select topic</h1>
-        <div className="icons-frow">
-          <div className="html-icon">
+         <div className="service">
+        <h2>select topic</h2>
+        <div className="service-item">
+          <div className="service-item1">
+            <img src={Html} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>html</h4>
+              <p>this is framwork of css</p>
+              <Link to="/Learning/Quize/html">
+              <button>attempt</button>
+              
+            </Link>
+
+
+
+            </div>
+          </div> 
+          <div className="service-item1">
+          <img src={Css} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>css</h4>
+              <p>this is framwork of css</p>
+              <Link to="/Learning/Quize/css">
+              <button>Attempt</button>
+             
+            </Link>
+
+        
+            </div>
+          </div> 
+          <div className="service-item1">
+          <img src={Js} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>javascript</h4>
+              <p>this is framwork of css</p>
+              <Link to="/Learning/Quize/html">
+              <button>attempt</button>
+            </Link>
+
+            </div>
+          </div> 
+          <div className="service-item1">
+          <img src={react} alt="error" />
+
+
+
+            <div className="service-detail">
+              <h4>react js</h4>
+              <p>this is framwork of css</p>
+              <Link to="/Learning/Quize/html">
+              <button>attempt</button>
+            </Link>
+
+            </div>
+          </div> 
+          <div className="service-item1">
+          <img src={angular} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>angular js</h4>
+              <p>this is framwork of css</p>
+              <Link to="/Learning/Quize/html">
+              <button>attempt</button>
+            </Link>
+
+
+         
+            </div>
+          </div> 
+          <div className="service-item1">
+          <img src={vue} alt="error" />
+
+
+
+            <div className="service-detail">
+              <h4>vue js</h4>
+              <p>this is framwork of css</p>
+              <Link to="/Learning/Quize/html">
+              <button>attempt</button>
+            </Link>
+
+            </div>
+          </div> 
+          <div className="service-item1">
+          <img src={nodejs} alt="error" />
+
+
+
+            <div className="service-detail">
+              <h4>node js</h4>
+              <p>this is framwork of css</p>
             <Link to="/Learning/Quize/html">
-              <img src={Html} alt="error" />
-            </Link>
-            <h6>Html</h6>
-          </div>
-          <div className="html-icon">
-            <Link to="/Learning/Quize/css">
-              <img src={Css} alt="error" />
-            </Link>
-            <h6>css</h6>
-          </div>
-          <div className="html-icon">
-            <Link to="/Learning/Quize/js">
-              <img src={Js} alt="error" />
-            </Link>
-            <h6>Js</h6>
-          </div>
-          <div className="html-icon">
-            <a href="">
-              <img src={react} alt="error" />
-            </a>
-            <h6>reactjs</h6>
-          </div>
-          <div className="html-icon">
-            <a href="">
-              <img src={angular} alt="error" />
-            </a>
-            <h6>Angularjs</h6>
-          </div>
-        </div>
+             <button>attempt</button>
+       </Link>
+            </div>
+          </div> 
+          <div className="service-item1">
+          <img src={express} alt="error" />
 
-        <div className="icons-frow">
-          {/* <div className="html-icon">
-            <a href="">
-              <img src={vue} alt="error" />
-            </a>
-            <h6>Vue</h6>
-          </div> */}
-          <div className="html-icon">
-            <a href="">
-              <img src={nodejs} alt="error" />
-            </a>
-            <h6>nodejs</h6>
-          </div>
-          <div className="html-icon">
-            <a href="">
-              <img src={express} alt="error" />
-            </a>
-            <h6>express</h6>
-          </div>
-          {/* <div className="html-icon">
-            <a href="">
-              <img src={bootstrap} alt="error" />
-            </a>
-            <h6>bootstrap</h6>
-          </div>
-          <div className="html-icon">
-            <a href="">
-              <img src={tailwind} alt="error" />
-            </a>
-            <h6>tailwind</h6>
-          </div> */}
-        </div>
-        {/* 
-        <div className="icons-frow">
-          <div className="html-icon">
-            <a href="">
-              <img src={bootstrap} alt="error" />
-            </a>
-            <h6>bootstrap</h6>
-          </div>
-          <div className="html-icon">
-            <a href="">
-              <img src={tailwind} alt="error" />
-            </a>
-            <h6>tailwind</h6>
-          </div>
-          <div className="html-icon">
-            <a href="">
-              <img src={Html} alt="error" />
-            </a>
-            <h6>sass</h6>
-          </div>
-          <div className="html-icon">
-            <a href="">
-              <img src={Html} alt="error" />
-            </a>
-            <h6>Html</h6>
-          </div>
-          <div className="html-icon">
-            <a href="">
-              <img src={Html} alt="error" />
-            </a>
-            <h6>Html</h6>
-          </div>
-        </div> */}
 
-        <h3>Data bases</h3>
-        <div className="icons-frow">
-          <div className="html-icon">
-            <a href="">
-              <img src={Html} alt="error" />
-            </a>
-            <h6>mongo db</h6>
-          </div>
-          <div className="html-icon">
-            <a href="">
-              <img src={Html} alt="error" />
-            </a>
-            <h6>sql</h6>
-          </div>
-          <div className="html-icon">
-            <a href="">
-              <img src={Html} alt="error" />
-            </a>
-            <h6>my sql</h6>
-          </div>
+
+
+            <div className="service-detail">
+              <h4>express</h4>
+              <p>this is framwork of css</p>
+            <Link to="/Learning/Quize/html">
+             <button>attempt</button>
+       </Link>
+            </div>
+          </div> 
+          <div className="service-item1">
+          <img src={bootstrap} alt="error" />
+
+
+
+
+
+            <div className="service-detail">
+              <h4>bootstrap</h4>
+              <p>this is framwork of css</p>
+            <Link to="/Learning/Quize/html">
+             <button>attempt</button>
+       </Link>
+            </div>
+          </div> 
+          <div className="service-item1">
+          <img src={tailwind} alt="error" />
+
+
+
+
+
+            <div className="service-detail">
+              <h4>tailwind</h4>
+              <p>this is framwork of css</p>
+            <Link to="/Learning/Quize/html">
+             <button>attempt</button>
+       </Link>
+            </div>
+          </div> 
         </div>
-        {/* <h3>Core Subjects</h3>
-        <div className="icons-frow">
-          <div className="html-icon">
-            <a href="">
-              <img src={Html} alt="error" />
-            </a>
-            <h6>dbms</h6>
-          </div>
-          <div className="html-icon">
-            <a href="">
-              <img src={Html} alt="error" />
-            </a>
-            <h6>oops</h6>
-          </div>
-          <div className="html-icon">
-            <a href="">
-              <img src={Html} alt="error" />
-            </a>
-            <h6>Ai</h6>
-          </div>
-          <div className="html-icon">
-            <a href="">
-              <img src={Html} alt="error" />
-            </a>
-            <h6>ml</h6>
-          </div>
-        </div> */}
+        <h2>databases</h2>
+        <div className="service-item">
+        <div className="service-item1">
+            <img src={Html} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>mongo db</h4>
+              <p>this is framwork of css</p>
+            <Link to="/Learning/Quize/html">
+             <button>attempt</button>
+       </Link>
+            </div>
+          </div> 
+          <div className="service-item1">
+            <img src={Html} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>sql</h4>
+              <p>this is framwork of css</p>
+            <Link to="/Learning/Quize/html">
+             <button>attempt</button>
+       </Link>
+            </div>
+          </div> 
+          <div className="service-item1">
+            <img src={Html} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>my sql</h4>
+              <p>this is framwork of css</p>
+            <Link to="/Learning/Quize/html">
+             <button>attempt</button>
+       </Link>
+            </div>
+          </div> 
+    
+        </div>
+        <h2>core subjects</h2>
+        <div className="service-item">
+        <div className="service-item1">
+            <img src={Html} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>dbms</h4>
+              <p>this is framwork of css</p>
+            <Link to="/Learning/Quize/html">
+             <button>attempt</button>
+       </Link>
+            </div>
+          </div> 
+          <div className="service-item1">
+            <img src={Html} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>oops</h4>
+              <p>this is framwork of css</p>
+            <Link to="/Learning/Quize/html">
+             <button>attempt</button>
+       </Link>
+            </div>
+          </div> 
+          <div className="service-item1">
+            <img src={Html} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>ai</h4>
+              <p>this is framwork of css</p>
+            <Link to="/Learning/Quize/html">
+             <button>attempt</button>
+       </Link>
+            </div>
+          </div> 
+          <div className="service-item1">
+            <img src={Html} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>ml</h4>
+              <p>this is framwork of css</p>
+            <Link to="/Learning/Quize/html">
+             <button>attempt</button>
+       </Link>
+            </div>
+          </div> 
+    
+        </div>
       </div>
     </>
   );

@@ -13,6 +13,7 @@
   .contactDetail p {
     margin-bottom: 60px;
     text-align: center;
+    width: 400px;
     margin-top: 10px;
     color: rgb(99, 98, 98);
   }
@@ -40,7 +41,7 @@
   
   @media screen and (max-width: 768px) {
     .contactDetail {
-      margin: 10px 0;
+      margin: 0;
     }
     .contactDetail h2 {
       font-size: 30px;
@@ -48,6 +49,7 @@
     }
     .contactDetail p {
       font-size: 15px;
+
     }
     .contactDetail button {
       padding: 8px 30px;
@@ -59,11 +61,12 @@
   }
   @media screen and (max-width: 470px) {
     .contactDetail h2 {
-      font-size: 25px;
+      font-size: 27px;
       letter-spacing: 0.4px;
     }
     .contactDetail p {
-      font-size: 10px;
+      font-size: 12px;
+      width: 300px;
     }
     .contactDetail button {
       margin: 5px 0;

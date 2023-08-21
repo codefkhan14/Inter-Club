@@ -27,7 +27,6 @@ function QuizeHtml({api, title}) {
       <h1>{title}</h1>
       {questions.map((question, index) => (
         <QuizeHelper
-
           key={index}
           question={question.question}
           options={question.options}

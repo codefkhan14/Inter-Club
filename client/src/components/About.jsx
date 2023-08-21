@@ -9,7 +9,7 @@ function About() {
           <div className="About-page-right">
          <div className="About-page-img-stack">
            <img
-             src="https://themewagon.github.io/satner/img/about-us.png"
+             src="https://s3.amazonaws.com/images.wealthyaffiliate.com/uploads/829409/sitecontent/1b965c1af86d75716bc056a89ffff2cd1533133886_cropped_1533134087.jpg?1533134088"
              alt=""
              width="450px"
              height="450px"

@@ -14,7 +14,7 @@
 }
 
 .About-page-intro .About-page-left h2 {
-  font-size: 35px;
+  font-size: 2.4vw;
   text-align: start;
 }
 
@@ -57,8 +57,10 @@
   }
 
   .About-page-intro .About-page-left h2 {
-    font-size: 28px;
+    font-size: 3.0vw;
+   
   }
+  
 
   .About-page-intro .About-page-left p {
     font-size: 15px;
@@ -80,21 +82,24 @@
    justify-content: center;
   }
 
+
   .About-page-intro .About-page-left {
-    max-width: 400px;
+    max-width: 360px;
     text-align: center;
 
   }
   .About-page-right .About-page-img-stack .About-page-img {
-    display: none;
+    /* display: none; */
   }
   .About-page-intro .About-page-left h2 {
     text-align: center;
-    font-size: 25px;
+    font-size: 3.5vw;
+
   }
   .About-page-intro .About-page-left p {
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 8px;
+    
   }
   .About-page-left a button {
     padding: 10px 20px;
@@ -104,14 +109,15 @@
 }
 @media screen and (max-width: 660px) {
   .About-page-intro {
-  margin-top: 20px;
+  margin-top: 50px;
   }
   .About-page-intro .About-page-left h2 {
-    font-size: 14px;
+    font-size: 4.9vw;
+
   }
 
   .About-page-intro .About-page-left p {
-    font-size: 8px;
+    font-size: 12px;
   }
 
   .About-page-left a button {

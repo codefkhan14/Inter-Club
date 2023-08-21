@@ -10,171 +10,246 @@ import bootstrap from "../assests/bootstrap.png";
 import tailwind from "../assests/tailwind.png";
 import nodejs from "../assests/nodejs.png";
 import express from "../assests/express.png";
-function TechnologieLearn() {
+
+function Service() {
   return (
-    <div className="All-tech-icons">
-      <h1>Technologies</h1>
-      <div className="icons-frow">
-        <div className="html-icon">
+    <>
+      <div className="service">
+        <h2>Technologies</h2>
+        <div className="service-item">
+          <div className="service-item1">
+            <img src={Html} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>html</h4>
+              <p>this is framwork of css</p>
           <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+              <button>Learn</button>
+          </a>
+            </div>
+          </div> 
+          <div className="service-item1">
+          <img src={Css} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>css</h4>
+              <p>this is framwork of css</p>
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+              <a href="https://www.w3schools.com/css/default.asp" target="_blank">
+              <button>Learn</button>
+          </a>
+
+          </a>
+            </div>
+          </div> 
+          <div className="service-item1">
+          <img src={Js} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>javascript</h4>
+              <p>this is framwork of css</p>
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+              <button>Learn</button>
+          </a>
+            </div>
+          </div> 
+          <div className="service-item1">
+          <img src={react} alt="error" />
+
+
+
+            <div className="service-detail">
+              <h4>react js</h4>
+              <p>this is framwork of css</p>
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+              <button>Learn</button>
+          </a>
+            </div>
+          </div> 
+          <div className="service-item1">
+          <img src={angular} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>angular js</h4>
+              <p>this is framwork of css</p>
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+              <button>Learn</button>
+          </a>
+            </div>
+          </div> 
+          <div className="service-item1">
+          <img src={vue} alt="error" />
+
+
+
+            <div className="service-detail">
+              <h4>vue js</h4>
+              <p>this is framwork of css</p>
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+              <button>Learn</button>
+          </a>
+            </div>
+          </div> 
+          <div className="service-item1">
+          <img src={nodejs} alt="error" />
+
+
+
+            <div className="service-detail">
+              <h4>node js</h4>
+              <p>this is framwork of css</p>
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+              <button>Learn</button>
+          </a>
+            </div>
+          </div> 
+          <div className="service-item1">
+          <img src={express} alt="error" />
+
+
+
+
+            <div className="service-detail">
+              <h4>express</h4>
+              <p>this is framwork of css</p>
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+              <button>Learn</button>
+          </a>
+            </div>
+          </div> 
+          <div className="service-item1">
+          <img src={bootstrap} alt="error" />
+
+
+
+
+
+            <div className="service-detail">
+              <h4>bootstrap</h4>
+              <p>this is framwork of css</p>
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+              <button>Learn</button>
+          </a>
+            </div>
+          </div> 
+          <div className="service-item1">
+          <img src={tailwind} alt="error" />
+
+
+
+
+
+            <div className="service-detail">
+              <h4>tailwind</h4>
+              <p>this is framwork of css</p>
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+              <button>Learn</button>
+          </a>
+            </div>
+          </div> 
+        </div>
+        <h2>databases</h2>
+        <div className="service-item">
+        <div className="service-item1">
             <img src={Html} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>mongo db</h4>
+              <p>this is framwork of css</p>
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+              <button>Learn</button>
           </a>
-          <h6>Html</h6>
+            </div>
+          </div> 
+          <div className="service-item1">
+            <img src={Html} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>sql</h4>
+              <p>this is framwork of css</p>
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+              <button>Learn</button>
+          </a>
+            </div>
+          </div> 
+          <div className="service-item1">
+            <img src={Html} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>my sql</h4>
+              <p>this is framwork of css</p>
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+              <button>Learn</button>
+          </a>
+            </div>
+          </div> 
+    
         </div>
-        <div className="html-icon">
-          <a href="https://www.w3schools.com/css/default.asp" target="_blank">
-            <img src={Css} alt="error" />
+        <h2>core subjects</h2>
+        <div className="service-item">
+        <div className="service-item1">
+            <img src={Html} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>dbms</h4>
+              <p>this is framwork of css</p>
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+              <button>Learn</button>
           </a>
-          <h6>css</h6>
-        </div>
-        <div className="html-icon">
-          <a href="">
-            <img src={Js} alt="error" />
+            </div>
+          </div> 
+          <div className="service-item1">
+            <img src={Html} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>oops</h4>
+              <p>this is framwork of css</p>
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+              <button>Learn</button>
           </a>
-          <h6>Js</h6>
-        </div>
-        <div className="html-icon">
-          <a href="">
-            <img src={react} alt="error" />
+            </div>
+          </div> 
+          <div className="service-item1">
+            <img src={Html} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>ai</h4>
+              <p>this is framwork of css</p>
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+              <button>Learn</button>
           </a>
-          <h6>reactjs</h6>
-        </div>
-        <div className="html-icon">
-          <a href="">
-            <img src={angular} alt="error" />
+            </div>
+          </div> 
+          <div className="service-item1">
+            <img src={Html} alt="error" />
+
+
+            <div className="service-detail">
+              <h4>ml</h4>
+              <p>this is framwork of css</p>
+          <a href="https://www.w3schools.com/html/default.asp" target="_blank">
+              <button>Learn</button>
           </a>
-          <h6>Angularjs</h6>
+            </div>
+          </div> 
+    
         </div>
       </div>
 
 
-
-      <div className="icons-frow">
-        {/* <div className="html-icon">
-          <a href="">
-            <img src={vue} alt="error" />
-          </a>
-          <h6>Vue</h6>
-        </div> */}
-        <div className="html-icon">
-          <a href="">
-            <img src={nodejs} alt="error" />
-          </a>
-          <h6>nodejs</h6>
-        </div>
-        <div className="html-icon">
-          <a href="">
-            <img src={express} alt="error" />
-          </a>
-          <h6>express</h6>
-        </div>
-        {/* <div className="html-icon">
-          <a href="">
-            <img src={bootstrap} alt="error" />
-          </a>
-          <h6>bootstrap</h6>
-        </div>
-        <div className="html-icon">
-          <a href="">
-            <img src={tailwind} alt="error" />
-          </a>
-          <h6>tailwind</h6>
-        </div> */}
-      </div>
-
-
-{/* 
-      <div className="icons-frow">
-        <div className="html-icon">
-          <a href="">
-            <img src={bootstrap} alt="error" />
-          </a>
-          <h6>bootstrap</h6>
-        </div>
-        <div className="html-icon">
-          <a href="">
-            <img src={tailwind} alt="error" />
-          </a>
-          <h6>tailwind</h6>
-        </div>
-        <div className="html-icon">
-          <a href="">
-            <img src={Html} alt="error" />
-          </a>
-          <h6>sass</h6>
-        </div>
-        <div className="html-icon">
-          <a href="">
-            <img src={Html} alt="error" />
-          </a>
-          <h6>Html</h6>
-        </div>
-        <div className="html-icon">
-          <a href="">
-            <img src={Html} alt="error" />
-          </a>
-          <h6>Html</h6>
-        </div>
-      </div> */}
-
-
-
-      <h3>Data bases</h3>
-      <div className="icons-frow">
-        <div className="html-icon">
-          <a href="">
-            <img src={Html} alt="error" />
-          </a>
-          <h6>mongo db</h6>
-        </div>
-        <div className="html-icon">
-          <a href="">
-            <img src={Html} alt="error" />
-          </a>
-          <h6>sql</h6>
-        </div>
-        <div className="html-icon">
-          <a href="">
-            <img src={Html} alt="error" />
-          </a>
-          <h6>my sql</h6>
-        </div>
-
-        
-
-      </div>
-      {/* <h3>Core Subjects</h3>
-      <div className="icons-frow">
-        <div className="html-icon">
-          <a href="">
-            <img src={Html} alt="error" />
-          </a>
-          <h6>dbms</h6>
-        </div>
-        <div className="html-icon">
-          <a href="">
-            <img src={Html} alt="error" />
-          </a>
-          <h6>oops</h6>
-        </div>
-        <div className="html-icon">
-          <a href="">
-            <img src={Html} alt="error" />
-          </a>
-          <h6>Ai</h6>
-        </div>
-        <div className="html-icon">
-          <a href="">
-            <img src={Html} alt="error" />
-          </a>
-          <h6>ml</h6>
-        </div>
-
-        
-
-      </div> */}
-    </div>
+    </>
   );
 }
 
-export default TechnologieLearn;
+export default Service;
+
