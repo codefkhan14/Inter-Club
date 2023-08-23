@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  flex-wrap:wrap-reverse;
+  flex-wrap: wrap-reverse;
   height: 100%;
   margin-top: 70px;
 }
@@ -42,14 +42,12 @@
   }
 }
 
-
 @media screen and (max-width: 900px) {
   .About-page-intro {
     margin-top: 50px;
   }
   .About-page-intro .About-page-left {
     max-width: 450px;
-
   }
   .About-page-right .About-page-img-stack .About-page-img {
     width: 350px;
@@ -57,10 +55,8 @@
   }
 
   .About-page-intro .About-page-left h2 {
-    font-size: 3.0vw;
-   
+    font-size: 3vw;
   }
-  
 
   .About-page-intro .About-page-left p {
     font-size: 15px;
@@ -76,44 +72,34 @@
   }
 }
 
-
 @media screen and (max-width: 768px) {
   .About-page-intro {
-   justify-content: center;
+    justify-content: center;
   }
-
 
   .About-page-intro .About-page-left {
     max-width: 360px;
     text-align: center;
-
-  }
-  .About-page-right .About-page-img-stack .About-page-img {
-    /* display: none; */
   }
   .About-page-intro .About-page-left h2 {
     text-align: center;
     font-size: 3.5vw;
-
   }
   .About-page-intro .About-page-left p {
     font-size: 15px;
     margin-top: 8px;
-    
   }
   .About-page-left a button {
     padding: 10px 20px;
     font-size: 11px;
   }
-
 }
 @media screen and (max-width: 660px) {
   .About-page-intro {
-  margin-top: 50px;
+    margin-top: 50px;
   }
   .About-page-intro .About-page-left h2 {
     font-size: 4.9vw;
-
   }
 
   .About-page-intro .About-page-left p {
@@ -121,7 +107,7 @@
   }
 
   .About-page-left a button {
-    padding: 7px 12px;
-    font-size: 7px;
+    padding: 9px 14px;
+    font-size: 8px;
   }
 }

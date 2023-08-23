@@ -1,28 +1,25 @@
 import React from "react";
 import "../styles/TechnologieLearn.css";
-import Html from "../assests/html.png";
-import Css from "../assests/css.png";
 import Js from "../assests/js.png";
-import react from "../assests/react.png";
-import angular from "../assests/angular.png";
-import vue from "../assests/vue.png";
-import bootstrap from "../assests/bootstrap.png";
-import tailwind from "../assests/tailwind.png";
-import nodejs from "../assests/nodejs.png";
-import express from "../assests/express.png";
+import c from "../assests/c.png";
+import cpp from "../assests/cpp.png";
+import java from "../assests/java.png";
+import js from "../assests/js.png";
+import python from "../assests/python.png";
+
 function PlLearn() {
   return (
     <div className="service">
       <h2>programming language</h2>
       <div className="service-item">
         <div className="service-item1">
-          <img src={Html} alt="error" />
+          <img src={c} alt="error" />
 
           <div className="service-detail">
             <h4>c</h4>
-            <p>this is framwork of css</p>
+            <p>A Programming Language</p>
             <a
-              href="https://www.w3schools.com/html/default.asp"
+              href="https://www.w3schools.com/c/index.php"
               target="_blank"
             >
               <button>Learn</button>
@@ -30,32 +27,27 @@ function PlLearn() {
           </div>
         </div>
         <div className="service-item1">
-          <img src={Css} alt="error" />
+          <img src={cpp} alt="error" />
 
           <div className="service-detail">
             <h4>c++</h4>
-            <p>this is framwork of css</p>
+            <p>A Programming Language</p>
             <a
-              href="https://www.w3schools.com/html/default.asp"
+              href="https://www.w3schools.com/cpp/default.asp"
               target="_blank"
             >
-              <a
-                href="https://www.w3schools.com/css/default.asp"
-                target="_blank"
-              >
                 <button>Learn</button>
               </a>
-            </a>
           </div>
         </div>
         <div className="service-item1">
-          <img src={Js} alt="error" />
+          <img src={java} alt="error" />
 
           <div className="service-detail">
             <h4>java</h4>
-            <p>this is framwork of css</p>
+            <p>A Programming Language</p>
             <a
-              href="https://www.w3schools.com/html/default.asp"
+              href="https://www.w3schools.com/java/default.asp"
               target="_blank"
             >
               <button>Learn</button>
@@ -63,13 +55,13 @@ function PlLearn() {
           </div>
         </div>
         <div className="service-item1">
-          <img src={react} alt="error" />
+          <img src={python} alt="error" />
 
           <div className="service-detail">
             <h4>python</h4>
-            <p>this is framwork of css</p>
+            <p>A Programming Language</p>
             <a
-              href="https://www.w3schools.com/html/default.asp"
+              href="https://www.w3schools.com/python/default.asp"
               target="_blank"
             >
               <button>Learn</button>
@@ -77,13 +69,13 @@ function PlLearn() {
           </div>
         </div>
         <div className="service-item1">
-          <img src={angular} alt="error" />
+          <img src={js} alt="error" />
 
           <div className="service-detail">
             <h4>javascript</h4>
-            <p>this is framwork of css</p>
+            <p>A Programming Language</p>
             <a
-              href="https://www.w3schools.com/html/default.asp"
+              href="https://www.w3schools.com/js/default.asp"
               target="_blank"
             >
               <button>Learn</button>
