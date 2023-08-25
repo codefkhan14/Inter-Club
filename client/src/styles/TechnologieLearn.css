@@ -5,7 +5,8 @@
 
 .service h2 {
   font-size: 33px;
-  margin:10px 0 ;
+  margin: 10px 0;
+  text-transform: uppercase;
 }
 .service button {
   padding: 6px 27px;
@@ -28,10 +29,10 @@
   height: 250px;
   padding: 30px 0;
   text-align: center;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 1px 15px 30px 0px rgb(224, 224, 224);
+  background-color: rgb(45, 44, 44);
+  box-shadow: 1px 15px 30px 0px rgb(27, 27, 27);
 }
-.service-item1 img{
+.service-item1 img {
   width: 50px;
 }
 .service-detail {
@@ -39,48 +40,48 @@
 }
 .service-detail h4 {
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .service-detail p {
   margin-top: 5px;
-  color: rgb(95, 95, 95);
+  color: rgb(200, 200, 200);
   font-size: 14px;
 }
 
-
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   .service {
     padding-top: 80px;
   }
-  
+
   .service-item {
     padding: 0px;
   }
 }
-@media screen and (max-width:720px) {
+@media screen and (max-width: 720px) {
   .service-item1 {
     margin: 10px;
     width: 180px;
     height: 230px;
   }
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .service-item1 {
     margin: 15px;
     width: 200px;
   }
 }
-@media screen and (max-width:460px) {
+@media screen and (max-width: 460px) {
   .service h2 {
     font-size: 25px;
-    margin:0;
+    margin: 0;
   }
   .service-item1 {
     margin: 8px;
     width: 180px;
   }
 }
-@media screen and (max-width:392px) {
+@media screen and (max-width: 392px) {
   .service-item1 {
     width: 230px;
     margin: 20px 0;

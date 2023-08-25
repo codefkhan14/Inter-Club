@@ -8,5 +8,6 @@
 .center p {
     line-height: 1.5;
     display: inline-block;
+    color: white;
     vertical-align: middle;
   }

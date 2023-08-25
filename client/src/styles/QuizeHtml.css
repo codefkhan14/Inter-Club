@@ -5,6 +5,8 @@
 
 .Quize-Que h1 {
   font-size: 28px;
+  color: white;
+  text-transform: uppercase;
   margin: 20px 0 50px 0;
 }
 

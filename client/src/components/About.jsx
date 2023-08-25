@@ -9,7 +9,7 @@ function About() {
           <div className="About-page-right">
          <div className="About-page-img-stack">
            <img
-             src="https://s3.amazonaws.com/images.wealthyaffiliate.com/uploads/829409/sitecontent/1b965c1af86d75716bc056a89ffff2cd1533133886_cropped_1533134087.jpg?1533134088"
+             src="https://easebuzz.in/static/base/images/partner-signup/payous.png"
              alt=""
              width="450px"
              height="450px"
@@ -21,9 +21,9 @@ function About() {
          <h2>About us</h2>
        
          <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur neque est soluta dignissimos eligendi. Quas porro in et eligendi blanditiis recusandae magni modi molestias sint unde. Necessitatibus nam illo perferendis veniam tenetur dicta quaerat error animi non similique atque modi molestiae omnis quos adipisci tempore totam alias nostrum, nobis hic?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur neque est soluta dignissimos eligendi. Quas porro in et eligendi blanditiis recusandae magni modi molestias
          </p>
-       <a href="/Project"> <button className="all-btn">get cv</button></a> 
+       <a href="/Project"> <button className="all-btn">Get Cv</button></a> 
        </div>
 
        

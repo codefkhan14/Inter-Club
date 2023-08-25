@@ -1,9 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   transition: 0.3s;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: rgb(1, 14, 26);
 }
 a {
   text-decoration: none;
@@ -15,16 +20,16 @@ h3,
 h4,
 h5,
 h6 {
-  text-transform: uppercase;
   font-weight: 600;
+  color: white;
 }
 button {
-  text-transform: uppercase;
+  letter-spacing: 1.3px;
   cursor: pointer;
   font-weight: bold;
   border: none;
   outline: none;
   border-radius: 20px;
   color: white;
-  background-color: rgb(23, 183, 132);
+  background-color: #27b67a;
 }

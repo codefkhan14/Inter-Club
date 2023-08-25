@@ -1,6 +1,5 @@
 .Quize-helper {
   border: 1px solid #ccc;
-  background-color: #f9f9f9;
   padding: 20px;
   border-radius: 5px;
   text-align: left;
@@ -12,6 +11,7 @@
   display: none;
   padding: 30px 0;
   text-align: left;
+  color: white;
 }
 .Submit-Quize {
   display: block;
@@ -28,6 +28,7 @@
 .Quize-helper .option {
   display: block;
   padding: 10px;
+  color: white;
   cursor: pointer;
   transition: background-color 0.3s;
 }

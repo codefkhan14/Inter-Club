@@ -21,6 +21,9 @@ const Navbar = () => {
   };
 
   return (
+    <div className="top-navbar">
+
+   
     <nav className="navbar">
       <div className="navbar-logo">
         <h2 className="navbarname">
@@ -35,7 +38,7 @@ const Navbar = () => {
       </div>
       <ul className={`navbar-links ${isMobileMenuOpen ? "open" : ""}`}>
         <li className="navbar-item">
-          <Link to="/" className="navbar-link">
+          <Link to="/" className="navbar-link active">
             Home
           </Link>
         </li>
@@ -108,6 +111,7 @@ const Navbar = () => {
         </li>
       </ul>
     </nav>
+    </div>
   );
 };
 
