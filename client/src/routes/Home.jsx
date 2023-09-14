@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import About from "../components/About";
 import Footer from "../components/Footer";
 import Spinner from "../components/Spinner";
+import Faq from "../components/Faq";
 
 function Home() {
   const [load, setLoad] = useState(true);
@@ -24,6 +25,7 @@ function Home() {
           <Navbar />
           <Header />
           <About />
+          <Faq/>
           <Footer />
         </div>
       )}

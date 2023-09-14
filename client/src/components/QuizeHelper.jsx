@@ -2,33 +2,25 @@
 import React, { useState } from "react";
 import "../styles/QuizeHelper.css";
 
-function QuizeHelper({ question, options, correctAnswer,explanation }) {
+function QuizeHelper({ question, options, correctAnswer, explanation }) {
   const [selectedAnswer, setSelectedAnswer] = useState("");
   const [select, setSelect] = useState(false);
   const [clickButton, setClickButton] = useState(false);
   const [showCorrectAnswer, setShowCorrectAnswer] = useState(false);
   const handleSelectAnswer = (option) => {
-    setSelect(true)
-  
-    
-      setSelectedAnswer(option);
+    setSelect(true);
 
-    
+    setSelectedAnswer(option);
   };
-  
-  const handleSubmitAnswer = () => {
-    if(select)
-    {
-      setClickButton(!clickButton)
-      setShowCorrectAnswer(true);
 
+  const handleSubmitAnswer = () => {
+    if (select) {
+      setClickButton(!clickButton);
+      setShowCorrectAnswer(true);
     }
   };
   return (
     <>
-   
-
-   
       <div className="Quize-helper">
         <h3>{question}</h3>
         <ul>
@@ -58,16 +50,16 @@ function QuizeHelper({ question, options, correctAnswer,explanation }) {
             </li>
           ))}
         </ul>
-        <button className= "quize-submit-btn" onClick={handleSubmitAnswer}>Submit</button>
-      <div className={`Quize-exp ${clickButton ? "Submit-Quize" : ""} `}>
-       <p><strong>Explaination: </strong>{explanation}</p>
+        <button className="quize-submit-btn" onClick={handleSubmitAnswer}>
+          Submit
+        </button>
+        <div className={`Quize-exp ${clickButton ? "Submit-Quize" : ""} `}>
+          <p>
+            <strong>Explaination: </strong>
+            {explanation}
+          </p>
+        </div>
       </div>
-
-      </div>
-
-
-
-     
     </>
   );
 }

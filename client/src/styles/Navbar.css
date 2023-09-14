@@ -106,7 +106,7 @@
   transition: background-color 0.3s;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 855px) {
   .navbar {
     border: 0;
   }
@@ -144,6 +144,11 @@
   }
   .mobile-menu-icon {
     font-size: 20px;
+  }
+}
+@media (max-width: 655px) {
+  .navbar {
+    padding: 10px 40px;
   }
 }
 

@@ -7,7 +7,7 @@ function QuizeHtml({api, title}) {
   const [answers, setAnswers] = useState([]);
   const [questions, setQuestions] = useState([]);
   useEffect(() => {
-    axios.get(api) // Update with your backend URL
+    axios.get(api)
       .then(response => {
         setQuestions(response.data);
       })

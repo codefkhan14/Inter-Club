@@ -11,7 +11,6 @@ const CssData = [
       correctAnswer: 'Mars',
       explanation: "djlsdjfdsljohfwofhdsldslkjdslfjdslfj;l",
     },
-    // More questions...
   ];
   
   module.exports = CssData;
