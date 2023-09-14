@@ -27,7 +27,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo">
         <h2 className="navbarname">
-          <Link to="/">INTER</Link>
+          <Link to="/">INTER Club</Link>
         </h2>
       </div>
       <div
